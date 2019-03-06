@@ -57,26 +57,16 @@ Allocates a new string that contains the sequence of characters currently contai
 
 
 /**********Method***********/
-char  charAt(int index)
-Returns the char value at the specified index.
-int	codePointAt(int index)
-Returns the character (Unicode code point) at the specified index.
-int	codePointBefore(int index)
-Returns the character (Unicode code point) before the specified index.
-int	codePointCount(int beginIndex, int endIndex)
-Returns the number of Unicode code points in the specified text range of this String.
-int	compareTo(String anotherString)
-Compares two strings lexicographically.
-int	compareToIgnoreCase(String str)
-Compares two strings lexicographically, ignoring case differences.
-String	concat(String str)
-Concatenates the specified string to the end of this string.
-boolean	contains(CharSequence s)
-Returns true if and only if this string contains the specified sequence of char values.
-boolean	contentEquals(CharSequence cs)
-Compares this string to the specified CharSequence.
-boolean	contentEquals(StringBuffer sb)
-Compares this string to the specified StringBuffer.
+char  charAt(int index)  //Returns the char value at the specified index.
+int	codePointAt(int index)    //Returns the character (Unicode code point) at the specified index.
+int	codePointBefore(int index)  //Returns the character (Unicode code point) before the specified index.
+int	codePointCount(int beginIndex, int endIndex)    //Returns the number of Unicode code points in the specified text range of this String.
+int	compareTo(String anotherString)       //Compares two strings lexicographically.
+int	compareToIgnoreCase(String str)       //Compares two strings lexicographically, ignoring case differences.
+String	concat(String str)                 //Concatenates the specified string to the end of this string.
+boolean	contains(CharSequence s)           //Returns true if and only if this string contains the specified sequence of char values.
+boolean	contentEquals(CharSequence cs)     //Compares this string to the specified CharSequence.
+boolean	contentEquals(StringBuffer sb)     //Compares this string to the specified StringBuffer.
 static String	copyValueOf(char[] data)
 Equivalent to valueOf(char[]).
 static String	copyValueOf(char[] data, int offset, int count)
